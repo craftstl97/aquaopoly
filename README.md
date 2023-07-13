@@ -1,4 +1,4 @@
-<font size="8"> Aquaopoly </font> 
+## Aquaopoly
 
 Welcome to Aquaopoly!
 This was a Capstone project for Fall 2022 at the Missouri University of Science and Technology, 
