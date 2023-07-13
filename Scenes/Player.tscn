@@ -1,0 +1,10 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://Scripts/Player.gd" type="Script" id=1]
+[ext_resource path="res://Models/Boat.obj" type="ArrayMesh" id=2]
+
+[node name="CSGMesh" type="CSGMesh"]
+transform = Transform( 0.25, 0, 0, 0, 0.25, 0, 0, 0, 0.25, 0, 0.125, 0 )
+mesh = ExtResource( 2 )
+script = ExtResource( 1 )
+moveSpeed = 5.0

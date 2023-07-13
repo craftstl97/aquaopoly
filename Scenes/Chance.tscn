@@ -1,0 +1,35 @@
+[gd_scene load_steps=8 format=2]
+
+[ext_resource path="res://Scripts/Chance.gd" type="Script" id=1]
+[ext_resource path="res://Assets/Textures/Chance.PNG" type="Texture" id=3]
+[ext_resource path="res://Assets/Textures/AdvanceToAtlantis.jpg" type="Texture" id=8]
+[ext_resource path="res://Scripts/ChanceCard.gd" type="Script" id=21]
+
+[sub_resource type="BoxShape" id=1]
+extents = Vector3( 2.50167, 1, 1.55542 )
+
+[sub_resource type="CubeMesh" id=2]
+size = Vector3( 5, 2, 3.1 )
+
+[sub_resource type="SpatialMaterial" id=3]
+albedo_texture = ExtResource( 3 )
+uv1_scale = Vector3( 3, 2, 1 )
+
+[node name="Chance" type="Spatial"]
+script = ExtResource( 1 )
+
+[node name="ChanceBox" type="RigidBody" parent="."]
+collision_layer = 2
+mode = 1
+
+[node name="CollisionShape" type="CollisionShape" parent="ChanceBox"]
+shape = SubResource( 1 )
+
+[node name="CSGMesh" type="CSGMesh" parent="ChanceBox/CollisionShape"]
+mesh = SubResource( 2 )
+material = SubResource( 3 )
+
+[node name="ChanceCard" type="Sprite3D" parent="."]
+transform = Transform( 1, 0, 0, 0, 0.00870916, 0.999962, 0, -0.999962, 0.00870916, 0, 0, 0 )
+texture = ExtResource( 8 )
+script = ExtResource( 21 )

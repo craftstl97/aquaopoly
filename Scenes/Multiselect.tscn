@@ -1,0 +1,39 @@
+[gd_scene load_steps=7 format=2]
+
+[ext_resource path="res://Scripts/Multiselect.gd" type="Script" id=1]
+
+[sub_resource type="DynamicFontData" id=13]
+font_path = "res://Assets/Fonts/SansSerifFLF.otf"
+
+[sub_resource type="DynamicFont" id=14]
+size = 20
+outline_size = 1
+outline_color = Color( 0, 0, 0, 1 )
+font_data = SubResource( 13 )
+
+[sub_resource type="Theme" id=15]
+default_font = SubResource( 14 )
+
+[sub_resource type="Gradient" id=1]
+colors = PoolColorArray( 0.25098, 0.25098, 0.25098, 1, 0.501961, 0.501961, 0.501961, 1 )
+
+[sub_resource type="GradientTexture2D" id=2]
+gradient = SubResource( 1 )
+fill_from = Vector2( 0.5, 0 )
+fill_to = Vector2( 0.5, 1 )
+
+[node name="Multiselect" type="TextureRect"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+theme = SubResource( 15 )
+texture = SubResource( 2 )
+expand = true
+script = ExtResource( 1 )
+
+[node name="ScrollContainer" type="ScrollContainer" parent="."]
+anchor_left = 0.05
+anchor_top = 0.05
+anchor_right = 0.95
+anchor_bottom = 0.95
+
+[node name="VBoxContainer" type="VBoxContainer" parent="ScrollContainer"]

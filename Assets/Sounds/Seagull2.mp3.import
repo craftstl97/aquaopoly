@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/Seagull2.mp3-ce7bb3a0371365766777dd1041a640a0.mp3str"
+
+[deps]
+
+source_file="res://Assets/Sounds/Seagull2.mp3"
+dest_files=[ "res://.import/Seagull2.mp3-ce7bb3a0371365766777dd1041a640a0.mp3str" ]
+
+[params]
+
+loop=false
+loop_offset=0

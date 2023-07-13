@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/Pirates of the Caribbean - He's a Pirate (Extended).mp3-8f12fc53dc24a2613cdb715c5b8b4215.mp3str"
+
+[deps]
+
+source_file="res://Assets/Sounds/Pirates of the Caribbean - He's a Pirate (Extended).mp3"
+dest_files=[ "res://.import/Pirates of the Caribbean - He's a Pirate (Extended).mp3-8f12fc53dc24a2613cdb715c5b8b4215.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

@@ -1,0 +1,23 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/Seagull3.wav-a7e7280f9ce13d26c59bb1f32f9e27dd.sample"
+
+[deps]
+
+source_file="res://Assets/Sounds/Seagull3.wav"
+dest_files=[ "res://.import/Seagull3.wav-a7e7280f9ce13d26c59bb1f32f9e27dd.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=1
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

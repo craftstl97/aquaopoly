@@ -1,0 +1,11 @@
+Model Information:
+* title:	Pirate Island
+* source:	https://sketchfab.com/3d-models/pirate-island-84db60f107d64caca28ef2e67910d2f0
+* author:	NicolasThuaud (https://sketchfab.com/thuaudnicolas)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Pirate Island" (https://sketchfab.com/3d-models/pirate-island-84db60f107d64caca28ef2e67910d2f0) by NicolasThuaud (https://sketchfab.com/thuaudnicolas) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
